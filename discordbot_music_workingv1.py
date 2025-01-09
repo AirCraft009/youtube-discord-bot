@@ -142,7 +142,7 @@ async def leave(interaction: discord.Interaction):
         await interaction.guild.voice_client.disconnect()
         bot.vc = None
     else:
-        await interaction.response.send_message("JP ist nicht in einem VC")
+        await interaction.response.send_message("JP is not in a VC")
 
 
 """       
@@ -153,10 +153,7 @@ async def low_embed(interaction: discord.Interaction):
     
     """
 
-bot.run("MTMyMDc0Nzc1MjY1NjczMjE2Mg.GMcjbz.LrB1m-AOJ8xqmUpzsqnVtC0yghcDQXstrHjNUE")
+bot.run("TOKEN")
 
- 
-
-# bot.run("MTMyMDc0Nzc1MjY1NjczMjE2Mg.GMcjbz.LrB1m-AOJ8xqmUpzsqnVtC0yghcDQXstrHjNUE")
 
 
